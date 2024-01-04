@@ -1,0 +1,75 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root
+{
+    --main: #24353f;
+}
+body
+{
+    background-color: var(--main);
+}
+h2
+{
+    color: #17A2B8;
+    font-size: 40px;
+    font-weight: 500;
+    font-family: 'Titillium Web', sans-serif;
+}
+.login-box
+{
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+    padding: 40px;
+}
+p,a
+{
+    color: white;
+}
+input
+{
+    background-color: transparent !important;
+    color: white !important;
+}
+::placeholder
+{
+    color: rgba(255, 255, 255, 0.5) !important;
+}
+.login-box a
+{
+    text-decoration: none;
+}
+
+.login-box a:hover
+{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.nav-div
+{
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+.nav-div a
+{
+    font-size: 20px;
+    margin-bottom: 0px !important;
+    text-decoration: none;
+}
+.nav-div button
+{
+    color: white !important;
+}
+
+.welcome
+{
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+    width: 75%;
+    padding: 50px;
+}
+.welcome span
+{
+    color: #17A2B8;
+    font-size: 40px;
+}

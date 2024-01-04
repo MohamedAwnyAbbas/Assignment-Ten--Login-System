@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/index_style.css" rel="stylesheet">
+    </head>
+    <body class="d-flex justify-content-end align-items-center">
+        <div class="container">
+                            <!-- Login-box -->
+            <div class="login-box w-75 mx-auto d-block" id="login-box">
+                <h2 class="text-center my-3">Smart Login System</h2>
+                <input type="email" class="form-control my-3" placeholder="Enter Your Email" id="loginMail">
+                <input type="password" class="form-control my-3" placeholder="Enter Your password" id="loginPass">
+                <div id="login-status"></div>
+                <button class="btn btn-outline-info d-block mx-auto w-100" id="loginBtn">Login</button>
+                <p class="text-center py-2">Don’t have an account? <a id="signupLink" href="#">Sign Up</a></p>
+            </div>  
+                            <!-- Sign up-box -->
+            <div class="login-box w-75 mx-auto d-none" id="signup-box">
+                <h2 class="text-center my-3">Smart Login System</h2>
+                <input type="text" class="form-control my-3" placeholder="Enter Your Name " id="signupName">
+                <input type="email" class="form-control my-3" placeholder="Enter Your Email" id="signupMail">
+                <input type="password" class="form-control my-3" placeholder="Enter Your password" id="signupPass">
+                <div id="signup-status"></div>
+                <button class="btn btn-outline-info d-block mx-auto w-100" id="signupBtn">Sign up</button>
+                <p class="text-center py-2">You have an account? <a href="#" id="signin-btn">Sign in</a></p>
+            </div>  
+        </div>
+
+        <script src="js/bootstrap.bundle.js"></script>
+        <script src="js/mine.js"></script>
+    </body>
+</html>
